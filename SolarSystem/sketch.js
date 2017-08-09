@@ -57,7 +57,8 @@ function createMars() {
     var c = color(255,102,102);
     var s = earthSpeed / 2;
     var mars = new planet(c, 130, 15, s);
-
+    mars.addMoon();
+    mars.addMoon();
     this.planets.push(mars);
 }
 

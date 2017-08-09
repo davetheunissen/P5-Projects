@@ -10,7 +10,10 @@ function planet(c, d, r, s) {
     var moons = [];
 
     this.addMoon = function() {
-        var moon = new planet(250, distance/8, radius/3, speed * 4);
+        var md = distance / random(2,8);
+        var mr = radius / random(3,5);
+        var ms = speed * random(1, 4);
+        var moon = new planet(250, md, mr, ms);
         moons.push(moon);
     };
 
