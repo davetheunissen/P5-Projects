@@ -1,12 +1,10 @@
-function Spaceship() {
-    this.position = createVector(100,100);
-    this.angle = 0;
+function spaceship() {
 }
 
-Spaceship.prototype.update = function() {
+spaceship.prototype.update = function() {
 }
 
-Spaceship.prototype.show = function() {
+spaceship.prototype.show = function() {
     fill(255);
-    ellipse(this.position.x, this.position.y, 100, 100);
+    ellipse(mouseX, height - (height / 4), 25, 25);
 }

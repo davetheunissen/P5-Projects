@@ -1,6 +1,8 @@
 function setup() {
-    createCanvas(400,400);
-    spaceship = new Spaceship();
+    createCanvas(400,600);
+    noCursor();
+
+    spaceship = new spaceship();
 }
 
 function draw() {
