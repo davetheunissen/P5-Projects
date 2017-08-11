@@ -1,8 +1,9 @@
-function Particle(x, y, firework) {
+function Particle(x, y, h, firework) {
     this.position = createVector(x,y);
     this.acceleration = createVector(0,0);
     this.firework = firework;
     this.lifespan = 255;
+    this.hue = h;
 
     if(this.firework) {
         this.velocity = createVector(0,random(-12, -8));
@@ -17,8 +18,8 @@ function Particle(x, y, firework) {
 
     this.update = function() {
         if(!this.firework) {
-           this.velocity.mult(0.85);
-           this.lifespan -= 4;
+           this.velocity.mult(0.95);
+           this.lifespan -= random(3,4);
         }
 
         this.velocity.add(this.acceleration);
@@ -26,13 +27,18 @@ function Particle(x, y, firework) {
         this.acceleration.mult(0);
     }
 
+    this.done = function() {
+        return this.lifespan <= 0;
+    }
+
     this.show = function() {
+        colorMode(HSB);
         if(!this.firework){
             strokeWeight(2);
-            stroke(255, this.lifespan);
+            stroke(this.hue, 255, 255, this.lifespan);
         } else {
             strokeWeight(4);
-            stroke(255);
+            stroke(this.hue, 255, 255);
         }
 
         point(this.position.x, this.position.y);

@@ -1,5 +1,6 @@
 function Firework() {
-    this.firework = new Particle(random(width), height, true);
+    this.hue = random(255);
+    this.firework = new Particle(random(width), height, this.hue, true);
     this.exploded = false;
     this.particles = [];
 
@@ -14,8 +15,12 @@ function Firework() {
         }
 
         this.particles.forEach(function(p) {
-            p.applyForce(gravity);
-            p.update();
+            if(p.done()) {
+                this.particles.splice(p, 1);
+            } else {
+                p.applyForce(gravity);
+                p.update();
+            }
         }, this);
     }
 
@@ -23,9 +28,13 @@ function Firework() {
         this.exploded = true;
 
         for(var i = 0; i < 100; i++){
-            var p = new Particle(this.firework.position.x, this.firework.position.y, false);
+            var p = new Particle(this.firework.position.x, this.firework.position.y, this.hue, false);
             this.particles.push(p);
         }
+    }
+
+    this.done = function() {
+        return this.exploded && this.particles.length === 0;
     }
 
     this.show = function() {

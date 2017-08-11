@@ -4,6 +4,7 @@ var fireworks = [];
 
 function setup() {
     createCanvas(400,400);
+    background(52);
     stroke(255);
     strokeWeight(5);
 
@@ -12,14 +13,18 @@ function setup() {
 }
 
 function draw() {
-    background(52);
-
+    colorMode(RGB);
+    background(0, 25)    
     if(random(1) < 0.05) {
         fireworks.push(new Firework());
     }
 
     fireworks.forEach(function(firework) {
-        firework.update();
-        firework.show();
+        if(firework.done()) {
+            fireworks.splice(firework, 1);
+        } else {
+            firework.update();
+            firework.show();
+        }
     }, this);
 }
