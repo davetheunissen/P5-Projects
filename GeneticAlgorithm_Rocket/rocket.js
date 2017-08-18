@@ -24,7 +24,7 @@ function Rocket() {
         translate(this.position.x, this.position.y);
         rotate(this.velocity.heading());
         rectMode(CENTER);
-        rect(0, 0, 50, 10);
+        rect(0, 0, 25, 5);
         pop();
     };
 };
