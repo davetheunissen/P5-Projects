@@ -1,16 +1,16 @@
-# P5-Projects
+### Series of simple P5.js projects inspired by https://natureofcode.com/
 
 <h4>Earthquake Map</h4>
-https://chappie72.github.io/P5-Projects/EarthquakeMap/
+https://github.com/davetheunissen/P5-Projects/tree/master/EarthquakeMap
 
 <h4>Fireworks</h4>
-https://chappie72.github.io/P5-Projects/Fireworks/
+https://github.com/davetheunissen/P5-Projects/tree/master/Fireworks
 
 <h4>Genetic Algorthim Rockets</h4>
-https://chappie72.github.io/P5-Projects/GeneticAlgorithm_Rocket/
+https://github.com/davetheunissen/P5-Projects/tree/master/GeneticAlgorithm_Rocket/
 
 <h4>2D Solar System</h4>
-https://chappie72.github.io/P5-Projects/SolarSystem/
+https://github.com/davetheunissen/P5-Projects/tree/master/SolarSystem/
 
 <h4>Steering Patter Seek/Arrive</h4>
-https://chappie72.github.io/P5-Projects/SteeringPattern_Seek/
+https://github.com/davetheunissen/P5-Projects/tree/master/SteeringPattern_Seek/
