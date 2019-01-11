@@ -2,7 +2,7 @@
 
 [EarthquakeMap](http://davetheunissen.io/P5-Projects/EarthquakeMap/)
 
-[Fireworks](http://davetheunissen.io/P5-Projects/Firworks/)
+[Fireworks](http://davetheunissen.io/P5-Projects/Fireworks/)
 
 [Genetic Algorthim Rockets](http://davetheunissen.io/P5-Projects/GeneticAlgorithm_Rocket/)
 
