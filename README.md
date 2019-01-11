@@ -1,15 +1,11 @@
 ### Series of simple P5.js projects inspired by https://natureofcode.com/
 
-[EarthquakeMap](https://github.com/davetheunissen/P5-Projects/tree/master/EarthquakeMap)
+[EarthquakeMap](http://davetheunissen.io/P5-Projects/EarthquakeMap/)
 
-<h4>Fireworks</h4>
-https://github.com/davetheunissen/P5-Projects/tree/master/Fireworks
+[Fireworks](http://davetheunissen.io/P5-Projects/Firworks/)
 
-<h4>Genetic Algorthim Rockets</h4>
-https://github.com/davetheunissen/P5-Projects/tree/master/GeneticAlgorithm_Rocket/
+[Genetic Algorthim Rockets](http://davetheunissen.io/P5-Projects/GeneticAlgorithm_Rocket/)
 
-<h4>2D Solar System</h4>
-https://github.com/davetheunissen/P5-Projects/tree/master/SolarSystem/
+[2D Solar System](http://davetheunissen.io/P5-Projects/SolarSystem/)
 
-<h4>Steering Patter Seek/Arrive</h4>
-https://github.com/davetheunissen/P5-Projects/tree/master/SteeringPattern_Seek/
+[Steering Patter Seek/Arrive](http://davetheunissen.io/P5-Projects/SteeringPattern_Seek/)
