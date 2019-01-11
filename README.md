@@ -1,7 +1,8 @@
 ### Series of simple P5.js projects inspired by https://natureofcode.com/
 
-<h4>Earthquake Map</h4>
-https://github.com/davetheunissen/P5-Projects/tree/master/EarthquakeMap
+<h4>Earthquake Map
+<a href=https://github.com/davetheunissen/P5-Projects/tree/master/EarthquakeMap></a>
+</h4>
 
 <h4>Fireworks</h4>
 https://github.com/davetheunissen/P5-Projects/tree/master/Fireworks
